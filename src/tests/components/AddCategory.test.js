@@ -29,6 +29,18 @@ describe('Pruebas en el componente <AddCategory />', () => {
 
         expect(setCategories).not.toHaveBeenCalled();
     })
+
+    test('debe de llamar el setCategories y limpiar la cada de texto', () => {
+        
+        // 1. simular el inputChange
+        // 2. simular el submit
+        // 3. setCategories se debe de haber llamado
+        // 4. el valor del input debe se estar ''
+
+        
+
+    })
+    
     
     
     
